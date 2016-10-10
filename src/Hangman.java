@@ -87,6 +87,7 @@ public class Hangman {
 			}
 		if(lives == 0){
 			System.out.println("Sorry, you are out of lives =[.");
+			System.out.println(word);
 			System.exit(0);
 		}
 		}
